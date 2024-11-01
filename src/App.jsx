@@ -7,7 +7,7 @@ import Home from './pages/Home';
 export default function app() {
   return(
     <div className='p-6'>
-      <div className='font-bold text-emerald-900'>Hello world</div>
+      <div className='font-bold text-emerald-900'>Hello world กกก</div>
       <BrowserRouter>
       <Routes>
         <Route path='/Home' element={<Home/>}/>
